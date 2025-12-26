@@ -1,0 +1,176 @@
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Убираем маркеры списка */
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white; /* Светлый фон для основной страницы */
+    color: #333;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(151, 34, 151), rgb(140, 187, 140)
+    ); 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+    box-shadow: 0 4px 6px black;
+}
+.header_title:hover{
+    color: coral;
+    font-size: 45px;
+}
+
+.header_title {
+    margin-bottom: 10px; 
+}
+
+nav ul {
+    display: flex; 
+    justify-content: center; 
+}
+
+nav li {
+    margin: 0 15px; 
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(167, 29, 172)marine;
+}
+.li{
+    margin-top: 10px;
+}
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.gallery{
+    display: flex; 
+    justify-content: space-around; 
+    gap: 15px; 
+    flex-wrap: wrap; 
+}
+
+.картина{
+    text-align: center;
+    width: 250px; 
+}
+
+.картина img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.3s ease;
+}
+
+.картина img:hover {
+    transform: scale(1.05); 
+}
+
+.название {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: rgb(80, 80, 83);
+}
+.HH{
+    justify-self: center;
+}
+.HHH{
+    justify-self: center;
+}
+.HHHH{
+    justify-self: center;
+}
+.block2 {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Добавим отступы для параграфов и списков внутри секций для читаемости */
+section p {
+    margin-bottom: 10px;
+}
+
+section ul {
+    margin-left: 20px; 
+    list-style-type: disc; 
+}
+
+section li {
+    margin-bottom: 5px;
+    margin-left: 20px; 
+}
+.форма {
+    margin-bottom: 15px; 
+}
+
+.форма label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.форма input,
+.форма textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    font-family: inherit; 
+}
+
+button[type="submit"] {
+    background-color: blueviolet; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: blueviolet; 
+}
+footer {
+    background-color: rgb(39, 39, 39); 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+    margin-top: 40px; 
+}
+
+footer p {
+    margin-bottom: 10px; 
+}
+
+footer a {
+    color: greenyellow; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
